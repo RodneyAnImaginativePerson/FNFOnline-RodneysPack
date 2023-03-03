@@ -10,6 +10,10 @@ mods/TGTv3/images/characters/tails/swagtails.xml
 mods/TGTv3/custom_events/Set Cam Zoom.lua
 mods/TGTv3/scripts/andromeda splashes.lua
 mods/TGTv3/scripts/camNoteMove.lua
+mods/TGTv3/images/stages/swag/nightsky.png
+mods/TGTv3/images/stages/swag/ground.png
+mods/TGTv3/images/stages/swag/walls.png
+mods/TGTv3/images/stages/swag/spotlight.png
 mods/TGTv3/images/smoke.png
 mods/TGTv3/images/smoke.xml
 mods/TGTv3/images/andromedaSplashes.png
