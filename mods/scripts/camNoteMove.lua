@@ -282,6 +282,7 @@ end
 ---@param noteType string `noteType` is here to do cool stuff with `setToCharCamPosition()`!
 ---@param isSustainNote boolean `isSustainNote` is only really here so if lowQuality is on, it prevents the movement.
 function moveCamNoteDir(mustPress, noteData, noteType, isSustainNote)
+	debugPrint(noteData, ' ', noteDataEKConverter(noteData, checkifNil(keyCount, checkifNil(mania, 4))))
 	if lowQuality and isSustainNote then return Function_StopLua end
 	noteData = noteDataEKConverter(noteData, checkifNil(keyCount, checkifNil(mania, 4)))
 	if not getProperty('isCameraOnForcedPos') then
