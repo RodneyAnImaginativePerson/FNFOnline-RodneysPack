@@ -1,6 +1,6 @@
 local directory = 'stages/swag/'
 
-function onCreate()
+function onCreatePost()
 	addLuaScript('custom_events/PhillyGlowLua')
 	makeLuaSprite('sky', directory .. 'nightsky', 0, 0)
 	makeLuaSprite('ground', directory .. 'ground', 0, 1000)
@@ -41,8 +41,8 @@ function onEvent(name, value1, value2)
 		if value1 == 'Swag Mode' then
 			doTweenAlpha('coolighting', 'spotlight', 100, 10 / playbackRate, 'linear')
 			doTweenColor('wallsdark', 'walls', '585858', 1 / playbackRate, 'linear')
-			triggerEvent('Change Scroll Speed', 0.7, 3.5)
-			triggerEvent('PhillyGlowLua', 1, '6767ff')
+			triggerEvent('Change Scroll Speed', '0.7', '3.5')
+			triggerEvent('PhillyGlowLua', '1', '6767ff')
 			for i = 1, 2 do
 				doTweenX('enter' .. i, 'smoke' .. i, (i == 1 and 1660 or i == 2 and -800), 3 / playbackRate, 'smoothStepIn')
 				doTweenColor('blue' .. i, 'smoke' .. i, '6767ff', 0.1 / playbackRate, 'smoothStepIn')
@@ -52,7 +52,7 @@ function onEvent(name, value1, value2)
 		elseif value1 == 'Not Just BF' then
 			doTweenAlpha('byebyespotlight', 'spotlight', 0, 10 / playbackRate, 'linear')
 			doTweenColor('wallsblue', 'walls', '0000ff', 10 / playbackRate, 'linear')
-			triggerEvent('Change Scroll Speed', 1, 2)
+			triggerEvent('Change Scroll Speed', '1', '2')
 		elseif value1 == 'Yeah Boi' then
 			for i = 1, 2 do
 				doTweenX('leave' .. i, 'smoke' .. i, (i == 1 and 2700 or i == 2 and -1250), 3 / playbackRate, 'backOut')
@@ -60,7 +60,7 @@ function onEvent(name, value1, value2)
 				doTweenColor('normal' .. i, 'smoke' .. i, 'ffffff', 1.5 / playbackRate, 'backOut')
 				doTweenColor('normal3', 'ground', 'ffffff', 1.5 / playbackRate, 'backOut')
 				doTweenColor('normal4', 'sky', 'ffffff', 1.5 / playbackRate, 'backOut')
-				triggerEvent('PhillyGlowLua', 0)
+				triggerEvent('PhillyGlowLua', '0')
 			end
 		end
 	end

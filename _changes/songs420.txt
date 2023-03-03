@@ -1,1 +1,1 @@
-mods/weeks/TGTv3.json
+mods/weeks/t.json

@@ -7,7 +7,7 @@ mods/TGTv3/stages/field2idk.json
 mods/TGTv3/stages/field2idk.lua
 mods/TGTv3/custom_events/Modchart Stuff.lua
 mods/TGTv3/scripts/andromeda splashes.lua
-mods/TGTv3/scripts/deathSprites.lua
+mods/TGTv3/scripts/camNoteMove.lua
 mods/songs/taste-for-blood/Voices.ogg
 mods/songs/taste-for-blood/voices.ogg
 mods/songs/taste-for-blood/Inst.ogg
