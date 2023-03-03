@@ -1,18 +1,16 @@
-local directory = 'stages/swag/'
-
 function onCreatePost()
 	addLuaScript('custom_events/PhillyGlowLua')
-	makeLuaSprite('sky', directory .. 'nightsky', 0, 0)
-	makeLuaSprite('ground', directory .. 'ground', 0, 1000)
+	makeLuaSprite('sky', 'stages/swag/nightsky', 0, 0)
+	makeLuaSprite('ground', 'stages/swag/ground', 0, 1000)
 
 	if not lowQuality then
-		makeLuaSprite('walls', directory .. 'walls', 150, 300)
+		makeLuaSprite('walls', 'stages/swag/walls', 150, 300)
 		setScrollFactor('walls', 0.9, 0.9)
 		scaleObject('walls', 0.8, 0.8)
 		setScrollFactor('sky', 1, 1)
 	end
 
-	makeLuaSprite('spotlight', directory .. 'spotlight', 450, 110)
+	makeLuaSprite('spotlight', 'stages/swag/spotlight', 450, 110)
 	scaleObject('spotlight', 0.85, 0.90)
 	setScrollFactor('spotlight', 1, 1)
 	doTweenAlpha('noshowyet', 'spotlight', 0, 0.001 / playbackRate, 'linear')

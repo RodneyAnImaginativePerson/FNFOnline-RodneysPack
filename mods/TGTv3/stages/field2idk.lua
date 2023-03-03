@@ -1,5 +1,3 @@
-local directory = 'stages/field2idk/'
-
 function onCreatePost()
 	makeLuaSprite('sky', directory .. 'tfbbg3', 0, -300)
 	setScrollFactor('sky', 1.10, 0.10)
