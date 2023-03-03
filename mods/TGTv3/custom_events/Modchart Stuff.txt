@@ -1,0 +1,4 @@
+Modchart Stuff for this port ig
+
+    Value 1: Tween, Duration
+    Value 2: true or false (is it on or not)

@@ -1,0 +1,14 @@
+mods/data/taste-for-blood/cutsceneShit.lua
+mods/data/taste-for-blood/events.json
+mods/data/taste-for-blood/hellscript.lua
+mods/data/taste-for-blood/mod.txt
+mods/data/taste-for-blood/taste-for-blood-c3.json
+mods/TGTv3/stages/field2idk.json
+mods/TGTv3/stages/field2idk.lua
+mods/TGTv3/custom_events/Modchart Stuff.lua
+mods/TGTv3/scripts/andromeda splashes.lua
+mods/TGTv3/scripts/deathSprites.lua
+mods/songs/taste-for-blood/Voices.ogg
+mods/songs/taste-for-blood/voices.ogg
+mods/songs/taste-for-blood/Inst.ogg
+mods/songs/taste-for-blood/inst.ogg

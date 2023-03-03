@@ -1,0 +1,25 @@
+mods/data/taste-for-blood/cutsceneShit.lua
+mods/data/taste-for-blood/events.json
+mods/data/taste-for-blood/hellscript.lua
+mods/data/taste-for-blood/mod.txt
+mods/data/taste-for-blood/taste-for-blood-c3.json
+mods/TGTv3/characters/bftroll3.json
+mods/TGTv3/characters/darksonic.json
+mods/TGTv3/characters/gfbest.json
+mods/TGTv3/stages/field2idk.json
+mods/TGTv3/stages/field2idk.lua
+mods/TGTv3/images/characters/bf/bftroll3.png
+mods/TGTv3/images/characters/bf/bftroll3.xml
+mods/TGTv3/images/characters/sonic/sonic_dark.png
+mods/TGTv3/images/characters/sonic/sonic_dark.xml
+mods/TGTv3/images/characters/gf/gfbest.png
+mods/TGTv3/images/characters/gf/gfbest.xml
+mods/TGTv3/custom_events/Modchart Stuff.lua
+mods/TGTv3/scripts/andromeda splashes.lua
+mods/TGTv3/scripts/deathSprites.lua
+mods/TGTv3/images/andromedaSplashes.png
+mods/TGTv3/images/andromedaSplashes.xml
+mods/songs/taste-for-blood/Voices.ogg
+mods/songs/taste-for-blood/voices.ogg
+mods/songs/taste-for-blood/Inst.ogg
+mods/songs/taste-for-blood/inst.ogg

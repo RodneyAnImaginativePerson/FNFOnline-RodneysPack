@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smoke.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pun0000" x="1" y="1" width="2075" height="290" frameX="-8" frameY="0" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0001" x="1" y="1" width="2075" height="290" frameX="-8" frameY="0" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0002" x="1" y="1" width="2075" height="290" frameX="-8" frameY="0" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0003" x="1" y="292" width="2033" height="293" frameX="-34" frameY="-16" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0004" x="1" y="292" width="2033" height="293" frameX="-34" frameY="-16" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0005" x="1" y="292" width="2033" height="293" frameX="-34" frameY="-16" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0006" x="1" y="586" width="2065" height="312" frameX="-23" frameY="-2" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0007" x="1" y="586" width="2065" height="312" frameX="-23" frameY="-2" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0008" x="1" y="586" width="2065" height="312" frameX="-23" frameY="-2" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0009" x="1" y="899" width="2036" height="213" frameX="-28" frameY="-70" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0010" x="1" y="899" width="2036" height="213" frameX="-28" frameY="-70" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0011" x="1" y="899" width="2036" height="213" frameX="-28" frameY="-70" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0012" x="2038" y="899" width="2035" height="330" frameX="0" frameY="-21" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0013" x="2038" y="899" width="2035" height="330" frameX="0" frameY="-21" frameWidth="2088" frameHeight="351"/>
+	<SubTexture name="pun0014" x="2038" y="899" width="2035" height="330" frameX="0" frameY="-21" frameWidth="2088" frameHeight="351"/>
+</TextureAtlas>

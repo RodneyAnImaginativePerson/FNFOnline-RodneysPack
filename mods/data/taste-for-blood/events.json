@@ -1,0 +1,241 @@
+{
+	"song": {
+		"events": [
+			[
+				12300,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				14700,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				17100,
+				[
+					[
+						"ChaSrlTyp~ Strum Swap",
+						"swap",
+						""
+					],
+					[
+						"Change Scrolltype",
+						"",
+						"current"
+					]
+				]
+			],
+			[
+				21900,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				24300,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				26700,
+				[
+					[
+						"ChaSrlTyp~ Strum Swap",
+						"swap",
+						""
+					],
+					[
+						"Change Scrolltype",
+						"",
+						"swap"
+					]
+				]
+			],
+			[
+				49200,
+				[
+					[
+						"Change Scrolltype",
+						"current",
+						"swap"
+					]
+				]
+			],
+			[
+				68400,
+				[
+					[
+						"Modchart Stuff",
+						"linear, 0.2",
+						"true"
+					]
+				]
+			],
+			[
+				87600,
+				[
+					[
+						"Modchart Stuff",
+						"",
+						"false"
+					],
+					[
+						"ChaSrlTyp~ Tween Typing",
+						"linear, 0.2",
+						"Both"
+					],
+					[
+						"Change Scrolltype",
+						"current",
+						"current"
+					]
+				]
+			],
+			[
+				91500,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				93900,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				96300,
+				[
+					[
+						"ChaSrlTyp~ Strum Swap",
+						"swap",
+						""
+					],
+					[
+						"Change Scrolltype",
+						"",
+						"current"
+					]
+				]
+			],
+			[
+				101100,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				103500,
+				[
+					[
+						"Change Scrolltype",
+						"swap",
+						""
+					]
+				]
+			],
+			[
+				105900,
+				[
+					[
+						"ChaSrlTyp~ Strum Swap",
+						"swap",
+						""
+					],
+					[
+						"Change Scrolltype",
+						"",
+						"current"
+					]
+				]
+			],
+			[
+				109200,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				129600,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"3"
+					]
+				]
+			],
+			[
+				139125,
+				[
+					[
+						"Modchart Stuff",
+						"linear, 1.5",
+						"true"
+					],
+					[
+						"Change Scrolltype",
+						"",
+						"swap"
+					]
+				]
+			],
+			[
+				151125,
+				[
+					[
+						"Modchart Stuff",
+						"",
+						"false"
+					],
+					[
+						"ChaSrlTyp~ Strum Swap",
+						"linear, 1.5",
+						"Both"
+					],
+					[
+						"Change Scrolltype",
+						"current",
+						"swap"
+					]
+				]
+			]
+		]
+	}
+}

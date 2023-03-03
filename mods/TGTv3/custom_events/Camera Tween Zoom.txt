@@ -1,0 +1,2 @@
+Value 1: value
+Value 2: duration, ease

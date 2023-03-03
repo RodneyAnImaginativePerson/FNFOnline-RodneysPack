@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				76,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				80,
+				58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				29
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				96
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				43
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				76,
+				44
+			],
+			"indices": [
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "idle forced"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/scourge_forced",
+	"position": [
+		-40,
+		50
+	],
+	"healthicon": "scourge-forced",
+	"flip_x": false,
+	"healthbar_colors": [
+		148,
+		255,
+		87
+	],
+	"camera_position": [
+		-20,
+		75
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

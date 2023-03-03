@@ -1,0 +1,20 @@
+mods/data/tsuraran-fox/events.json
+mods/data/tsuraran-fox/mod.txt
+mods/data/tsuraran-fox/swagscript.lua
+mods/data/tsuraran-fox/tsuraran-fox-remix.json
+mods/TGTv3/characters/swagtails.json
+mods/TGTv3/stages/swag.json
+mods/TGTv3/stages/swag.lua
+mods/TGTv3/images/characters/tails/swagtails.png
+mods/TGTv3/images/characters/tails/swagtails.xml
+mods/TGTv3/custom_events/Set Cam Zoom.lua
+mods/TGTv3/scripts/andromeda splashes.lua
+mods/TGTv3/scripts/deathSprites.lua
+mods/TGTv3/images/smoke.png
+mods/TGTv3/images/smoke.xml
+mods/TGTv3/images/andromedaSplashes.png
+mods/TGTv3/images/andromedaSplashes.xml
+mods/songs/tsuraran-fox/Voices.ogg
+mods/songs/tsuraran-fox/voices.ogg
+mods/songs/tsuraran-fox/Inst.ogg
+mods/songs/tsuraran-fox/inst.ogg

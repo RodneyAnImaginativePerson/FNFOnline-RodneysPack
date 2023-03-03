@@ -1,0 +1,6 @@
+Sets Camera Zoom
+
+Value 1: Cam zoom
+
+Type 'default' or leave blank to
+get the original stage camera zoom
