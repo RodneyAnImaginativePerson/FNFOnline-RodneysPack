@@ -40,8 +40,7 @@ function onSongStart()
 	makeLuaSprite('camFollowFake')
 	-- velocity stuff
 	velocity.defSpeed = checkifNil(getProperty('cameraSpeed'), 1)
-    camSpeedChecks.songHasStarted = true
-	debugPrint('Camera movement on note direction script acts awkwardly so yeah...')
+	camSpeedChecks.songHasStarted = true
 end
 
 function onUpdate()
@@ -94,9 +93,9 @@ local function moveCameraSection(noteType)
 		if noteType == camManagement.v1[2] then
 			setToCharCamPosition(camManagement.v1[1], {camManagement.v2[1], camManagement.v2[2]}, true)
 		else
-			-- runHaxeCode('game.moveCameraSection();')
-			local camShouldBeOn = gfSection and 'gf' or (mustHitSection and 'boyfriend' or 'dad')
-			setToCharCamPosition(camShouldBeOn, {(camShouldBeOn == 'boyfriend' and 'bf' or camShouldBeOn), 'original'}, true)
+			runHaxeCode('game.moveCameraSection();')
+			-- local camShouldBeOn = gfSection and 'gf' or (mustHitSection and 'boyfriend' or 'dad')
+			-- setToCharCamPosition(camShouldBeOn, {(camShouldBeOn == 'boyfriend' and 'bf' or camShouldBeOn), 'original'}, true)
 		end
 		setLockedCamPos(mustHitSection)
 	end
@@ -145,6 +144,15 @@ function onEvent(name, value1, value2)
 	
 	if name == 'Set Property' and value1 == 'cameraSpeed' then
 		velocity.defSpeed = checkifNil(tonumber(value2), velocity.defSpeed)
+	end
+
+	if name == 'Camera Follow Pos' then
+        setProperty('isCameraOnForcedPos', false)
+		if value1 == '' and value2 == '' then
+			triggerEvent('Manage Cam Dir Position Lock', '', '')
+		else
+			triggerEvent('Manage Cam Dir Position Lock', tostring(value1 .. ',' .. value2), tostring(value1 .. ',' .. value2))
+		end
 	end
 	
 	if name == 'Manage Cam Dir Movement' then
@@ -228,6 +236,7 @@ end
 ---@param maniaVar number` The variable thats states the current amount of keys.
 ---@return number noteData Returns the `noteData` after the 4 key conversion.
 local function noteDataEKConverter(noteData, maniaVar)
+    noteData = noteData - 1
 	if maniaVar == 1 then
 		if noteData == 0 then return 2 end
 		
@@ -238,7 +247,7 @@ local function noteDataEKConverter(noteData, maniaVar)
 		if noteData == 1 then return 2
 		elseif noteData == 2 then return 3 end
 		
-		-- elseif maniaVar == 4 then
+	-- elseif maniaVar == 4 then
 		
 	elseif maniaVar == 5 then
 		if noteData == 3 then return 2
@@ -282,8 +291,8 @@ end
 ---@param noteType string `noteType` is here to do cool stuff with `setToCharCamPosition()`!
 ---@param isSustainNote boolean `isSustainNote` is only really here so if lowQuality is on, it prevents the movement.
 function moveCamNoteDir(mustPress, noteData, noteType, isSustainNote)
-	debugPrint(noteData, ' ', noteDataEKConverter(noteData, checkifNil(keyCount, checkifNil(mania, 4))))
-	if lowQuality and isSustainNote then return Function_StopLua end
+    if --[[lowQuality and]] isSustainNote then return Function_StopLua end
+	debugPrint('Before: ', noteData, ', After: ', noteDataEKConverter(noteData, checkifNil(keyCount, checkifNil(mania, 4))))
 	noteData = noteDataEKConverter(noteData, checkifNil(keyCount, checkifNil(mania, 4)))
 	if not getProperty('isCameraOnForcedPos') then
 		moveCameraSection(noteType, mustPress)
